@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 druid = { git = "https://github.com/linebender/druid.git" }
+reqwest = {version = "0.12", features = ["blocking"]}
+sha2 = "0.9"
