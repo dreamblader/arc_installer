@@ -22,7 +22,7 @@ const APP_ID: &str = "org.gtk_rs.Css1";
         .build();
 
     button.connect_clicked(|_button| {
-        loader::plugin_loader::load_plugins();
+        loader::source_loader:load_sources();
     });
 
     let content = Box::new(Orientation::Vertical, 0);
@@ -33,7 +33,7 @@ const APP_ID: &str = "org.gtk_rs.Css1";
     .application(app)
     .default_width(1035)
     .default_height(584)
-    .title("Guild Wars 2 - Arc Installer")
+    .title("Guild Wars 2 - Build Helper")
     .child(&content)
     .build();
 

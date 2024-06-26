@@ -1,2 +1,2 @@
-pub mod plugin_loader;
-pub mod plugin_repos;
+pub mod source_loader;
+pub mod source_repos;
